@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: 'Coiny', cursive;
+
+}
+
+body{
+  background: #cdffeb;
+}
+
+
+.calculator {
+  border: 12px solid #fff;
+  width: 240px;
+  margin: 100px auto;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+
+}
+
+.screen {
+  width: 200px;
+  padding: 10px;
+  text-align: right;
+  font-size: 20px;
+  display:block;
+  margin:12px auto;
+  border-radius: 1rem;
+  /* border-top-right-radius: 1rem; */
+  outline: none;
+
+}
+
+.button, .numButton {
+  background: #07456f;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  border-radius: 25px;
+  margin: 2px;
+  font-size: 20px;
+  color: #009f9d;
+}
+
+.equl {
+  width: 110px;
+  border-radius: 15px;
+  color: #fed9ca;
+}
+
+.clear, .plus-minus, .percent, .divide, .multiply, .minus, .plus {
+  color: #fed9ca;
+}
